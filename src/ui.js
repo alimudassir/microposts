@@ -49,7 +49,7 @@ class UI {
 
   clearAlert() {
     const currentAlert = document.querySelector('.alert');
-    if(currentAlert){
+    if (currentAlert) {
       currentAlert.remove();
     }
   }
